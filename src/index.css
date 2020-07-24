@@ -1,0 +1,5 @@
+.ava{
+    width: 150px;
+    height: 150px;
+    transform: translate(100px,100px);   /*css3的属性一般前面有webkit或其他适应ie的标识，打包后我们希望自动添加这些前缀，使用postcss-loader*/
+}
